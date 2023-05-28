@@ -1,6 +1,6 @@
-# Página tipo _landing page_ del grupo de estudio **TH**
+# Página tipo _landing page_ de TH
 
-### Grupo de estudio de tecnologías web
+### Grupo de estudio de tecnologías _web_
 
 ---
 
@@ -14,8 +14,4 @@
 - Markdown
 - JavaScript
 
-# Taller de Maquetación
-
----
-
-| [Despliegue](https://luisDur8.github.io/th-page) |
+### [Despliegue](https://luisDur8.github.io/th-page)
