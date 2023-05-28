@@ -6,12 +6,14 @@
 
 **Tecnologías usadas en este proyecto:**
 
-- HTML
-- CSS
+- ### HTML, CSS
+- JavaScript
 - Terminal de comandos
 - Git/GitHub
 - Visual Studio Code
 - Markdown
-- JavaScript
 
-### [Despliegue](https://luisDur8.github.io/th-page)
+---
+
+| [Despliegue](https://luisDur8.github.io/th-page) |
+| ------------------------------------------------ |
