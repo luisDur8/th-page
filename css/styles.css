@@ -2,10 +2,10 @@
 :root {
   --font: 'Nunito Sans', sans-serif;
 
-  --oscuro: #171010;
+  --oscuro: #0a0a0a;
+  --grey: #1f1f1f;
   --claro: #ededed;
   --naranja-fuerte: #fca620;
-  --naranja-medio: #fdd36d;
   --naranja-suave: #ffffba;
 }
 
@@ -31,11 +31,11 @@ body {
 /* ORDER ABC */
 
 a {
-  color: var(--naranja-fuerte);
+  color: var(--naranja-suave);
 }
 
 a:hover {
-  color: var(--naranja-suave);
+  color: var(--naranja-fuerte);
 }
 
 h1 {
@@ -92,9 +92,14 @@ p {
   font-weight: bold;
   text-align: center;  
   text-decoration: none;
-  color: var(--naranja-suave);
-  background-color: var(--naranja-fuerte);
+  color: var(--naranja-fuerte);
+  background-color: var(--naranja-suave);
 }
-/* ----------- SITE STYLES  ----------- */
 
+/* ----------- SITE STYLES  ----------- */
+/* Order abc */
+body {
+  background-image: linear-gradient(to right, var(--oscuro) 10%, var(--grey) 150%);
+  color: var(--claro);
+}
 
