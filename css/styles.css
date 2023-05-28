@@ -1,0 +1,100 @@
+/* ----------- CUSTOM PROPERTIES - GLOBALES ----------- */
+:root {
+  --font: 'Nunito Sans', sans-serif;
+
+  --oscuro: #171010;
+  --claro: #ededed;
+  --naranja-fuerte: #fca620;
+  --naranja-medio: #fdd36d;
+  --naranja-suave: #ffffba;
+}
+
+/* ----------- RESET ----------- */
+html {
+  font-size: 62.5%;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* ORDER ABC */
+
+a {
+  color: var(--naranja-fuerte);
+}
+
+a:hover {
+  color: var(--naranja-suave);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: .85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: .7rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+p {
+  line-height: 1.6;
+}
+/* ----------- COMPONENTES ----------- */
+
+/* ----------- UTILITIES ----------- */
+.boton {
+  border-radius: .5rem;
+  padding: 1rem;
+  display: inline-block;
+  width: 20rem;
+  font-weight: bold;
+  text-align: center;  
+  text-decoration: none;
+  color: var(--naranja-suave);
+  background-color: var(--naranja-fuerte);
+}
+/* ----------- SITE STYLES  ----------- */
+
+
