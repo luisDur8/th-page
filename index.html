@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>developers</title>
+  <title>Developers</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,24 +29,38 @@
 
 <body>
 
-  <header id="inicio">
-    <a href="index.html">
-      <img class="logo" src="img/Logo.svg" alt="Logo de TH">
-    </a>
-  </header>
-  <h1>Grupo De Estudio</h1>
-  <nav>
-    <a href="#aprendizajeG">Aprendizaje Guiado</a>
-    <a href="#unete">Únete</a>
-  </nav>
+  <div class="hero">
+    <header id="inicio">
+      <a href="index.html">
+        <img class="logo" src="img/Logo.svg" alt="Logo de TH">
+      </a>
+    </header>
+
+    <h1>Grupo De Estudio</h1>
+    <nav class="nav">
+      <a class="aprendizaje-G" href="#aprendizajeG">Aprendizaje Guiado</a>
+      <a class="unete boton" href="#unete">Únete</a>
+    </nav>
+
+  </div>
+  <div class="line"></div>
 
   <footer class="footer">
     <a href="index.html">
       <img class="logo" src="img/Logo.svg" alt="Logo de TH">
     </a>
-
+    
     <small>
-      Sitio diseñado por <a href="http://luisdur.online" target="_blank" rel="noopener noreferrer">@luisDur</a> <br> © 2023 TH
+      <div class="contenedor-small">
+        <div>
+          Sitio diseñado por
+          <a href="http://luisdur.online" target="_blank" rel="noopener noreferrer">@luisDur</a> 
+        </div>
+        <br>
+        <div>
+          © 2023 TH
+        </div> 
+      </div><!-- contenedor-small -->
     </small>
   </footer>
 </body>
