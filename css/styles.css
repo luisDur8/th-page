@@ -76,6 +76,7 @@ p {
 /* ----------- COMPONENTES ----------- */
 
 /* ----------- UTILITIES ----------- */
+
 .boton {
   border-radius: 1rem;
   padding: 1rem;
@@ -103,6 +104,24 @@ p {
   background-image: linear-gradient(to right, var(--pink) 0%, var(--yellow) 100%);
 }
 
+.phone {
+  width: 25rem;
+  height: 50rem;
+  background-color: var(--claro);
+  border-radius: 4rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen {
+  max-width: 100%;
+  height: 96%;
+  background-color: var(--oscuro);
+  margin: 1rem;
+  border-radius: 3rem;
+}
+
 /* ----------- SITE STYLES  ----------- */
 /* Order abc */
 a {
@@ -113,11 +132,6 @@ a {
   font-size: 3rem;
   font-weight: bold;
   color: var(--grey-suave);
-}
-
-body {
-  background-image: linear-gradient(to right, var(--oscuro) 10%, var(--grey) 100%);
-  color: var(--claro);
 }
 
 .boton {
@@ -146,6 +160,8 @@ header .logo {
 
 .hero {
   margin: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -156,6 +172,15 @@ header .logo {
 
 .nav {
   margin-top: 1.2rem;
+}
+
+.phone {
+  margin-right: 10rem;
+  margin-top: 4.5rem;
+}
+
+.screen {
+  background-image: radial-gradient(circle at 50% 50%, var(--grey-suave) -50%, var(--oscuro) 80%);
 }
 
 small {
@@ -170,5 +195,13 @@ small a {
   margin-top: 8rem;
 }
 
+body {
+  background-image: linear-gradient(to right, var(--pink) 10%, var(--yellow) 100%);
+  color: var(--claro);
+  transition: background-color 0.3s ease;
+}
 
-
+body.dark-mode {
+  background-image: linear-gradient(to right, var(--oscuro) 10%, var(--grey) 100%);
+  color: var(--claro);
+}
