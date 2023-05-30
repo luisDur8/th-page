@@ -8,12 +8,13 @@
   --claro: #ededed;
   --yellow: #fcd734;
   --pink: #ff4cd5;
+  --yellow-suave: #feefa8;
+  --pink-suave: #fba4e7;
 }
 
 /* ----------- RESET ----------- */
 html {
   font-size: 62.5%;
-
 }
 
 *, *::before, *::after {
@@ -76,11 +77,22 @@ p {
 /* ----------- COMPONENTES ----------- */
 
 /* ----------- UTILITIES ----------- */
+/* Switch */
+body {
+  background-image: linear-gradient(to right, var(--yellow-suave) 10%, var(--pink-suave) 100%);
+  color: var(--oscuro);
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-image: linear-gradient(to right, var(--oscuro) 10%, var(--grey) 100%);
+  color: var(--claro);
+  transition: background-color 0.3s ease;
+} /* modo oscuro*/
 
 .boton {
   border-radius: 1rem;
   padding: 1rem;
-  display: inline-block;
   width: 15rem;
   font-weight: bold;
   text-align: center;  
@@ -101,7 +113,7 @@ p {
 .line {
   width: 100%;
   height: 2rem;
-  background-image: linear-gradient(to right, var(--pink) 0%, var(--yellow) 100%);
+  background-image: linear-gradient(to right, var(--yellow) 10%, var(--pink) 100%);
 }
 
 .phone {
@@ -125,19 +137,20 @@ p {
 /* ----------- SITE STYLES  ----------- */
 /* Order abc */
 a {
-  display: block;
+  display: inline-block;
 }
 
 .aprendizaje-G {
   font-size: 3rem;
   font-weight: bold;
   color: var(--grey-suave);
+  padding: 0.5rem;
 }
 
 .boton {
   padding: .8rem .5rem .5rem;
   border: 2rem solid var(--grey);
-  background-image: linear-gradient(to right, var(--pink) 10%, var(--yellow) 100%);
+  background-image: linear-gradient(to right, var(--yellow) 10%, var(--pink) 100%);
   border-radius: 4rem;
 }
 
@@ -147,19 +160,15 @@ a {
   height: 10rem;
 }
 
-
-.header__logo {
-  margin-bottom: 4rem;
-}
-
 header .logo {
   width: 16rem;
   height: 16rem;
   margin-bottom: 10rem;
+  margin-left: -6rem;
 }
 
 .hero {
-  margin: 2rem 10rem;
+  margin: 2rem 12rem;
   display: flex;
   justify-content: space-between;
 }
@@ -171,16 +180,19 @@ header .logo {
 }
 
 .nav {
-  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10rem;
+  padding: 1rem 0;
 }
-
 .phone {
   margin-right: 10rem;
   margin-top: 4.5rem;
 }
 
 .screen {
-  background-image: radial-gradient(circle at 50% 50%, var(--grey-suave) -50%, var(--oscuro) 80%);
+  background-image: radial-gradient(circle at 50% 50%, var(--grey) -50%, var(--grey-suave) 80%);
 }
 
 small {
@@ -191,17 +203,16 @@ small a {
   display: inline;
 }
 
+.form-switch {
+  padding: 2rem 13rem;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
 .unete {
-  margin-top: 8rem;
+  margin-top: 1rem;
 }
 
-body {
-  background-image: linear-gradient(to right, var(--pink) 10%, var(--yellow) 100%);
-  color: var(--claro);
-  transition: background-color 0.3s ease;
-}
 
-body.dark-mode {
-  background-image: linear-gradient(to right, var(--oscuro) 10%, var(--grey) 100%);
-  color: var(--claro);
-}
