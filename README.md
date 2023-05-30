@@ -7,6 +7,7 @@
 **Tecnologías usadas en este proyecto:**
 
 - ### HTML, CSS
+- Bootstrap
 - JavaScript
 - Terminal de comandos
 - Git/GitHub
